@@ -58,13 +58,13 @@ public class SpringBootWebApplication extends SpringBootServletInitializer
 			@Override
 			public void contextInitialized(ServletContextEvent sce)
 			{
-				log.info("OpenOSRS session manager started");
+				log.info("Meteor session manager started");
 			}
 
 			@Override
 			public void contextDestroyed(ServletContextEvent sce)
 			{
-				log.info("OpenOSRS session manager stopped");
+				log.info("Meteor session manager stopped");
 			}
 
 		};
